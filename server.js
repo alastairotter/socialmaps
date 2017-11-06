@@ -25,7 +25,7 @@ server.listen(port, (err) => {
 })
 
 
-fs.readFile('log.txt', 'utf8', function(err, data) {
+fs.readFile(config.baseDir + 'log.txt', 'utf8', function(err, data) {
               if (err) throw err;
             //  console.log('OK: ' + filename);
         //      console.log(data)
