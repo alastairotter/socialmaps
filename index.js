@@ -150,13 +150,13 @@ function gotData(err, data, response) {
     fs = require('fs');
     
     
-    fs.appendFile("log.txt", datetime, function (err) {
+    fs.appendFile(config.baseDir + "log.txt", datetime, function (err) {
         if(err)
             return console.log(err);
     })
     
     var text = results;
-    fs.appendFile('tweets.txt', text, function (err) {
+    fs.appendFile(config.baseDir + 'tweets.txt', text, function (err) {
     if (err) 
         return console.log(err);
 
