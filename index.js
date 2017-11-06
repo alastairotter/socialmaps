@@ -20,7 +20,7 @@ var T = new Twit(config);
 var query1 = { 
     q: ' ',
     geocode: '-26.1220741,28.0390835,5km',
-    count: 10,
+    count: 100,
     result_type: 'recent'
     }
 
@@ -28,42 +28,42 @@ var query1 = {
 var query2 = { 
     q: ' ',
     geocode: '-26.2900291,28.0406713,5km',
-    count: 10,
+    count: 100,
     result_type: 'recent'
     }
 
 var query3 = { 
     q: ' ',
     geocode: '-26.1569788,28.0724716,5km',
-    count: 10,
+    count: 100,
     result_type: 'recent'
     }
 
 var query4 = { 
     q: ' ',
     geocode: '-26.2299905,28.0721283,5km',
-    count: 10,
+    count: 100,
     result_type: 'recent'
     }
 
 var query5 = { 
     q: ' ',
     geocode: '-26.2324543,28.006897,5km',
-    count: 10,
+    count: 100,
     result_type: 'recent'
     }
 
 var query6 = { 
     q: ' ',
     geocode: '26.1591359,27.9945374,5km',
-    count: 10,
+    count: 100,
     result_type: 'recent'
     }
 
 var query7 = { 
     q: ' ',
     geocode: '-26.202578,28.039341,5km',
-    count: 10,
+    count: 100,
     result_type: 'recent'
     }
 
