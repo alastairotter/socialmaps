@@ -1,7 +1,9 @@
 #!/bin/bash
 
-sort -u -t',' -k2,2 test.csv >> testnew.csv
+sort -u -t',' -k2,2 /home/socialmaps_logs/tweets.txt >> /home/socialmaps_logs/tweets_new.txt
 
-rm test.csv
+rm /home/socialmaps_logs/tweets.txt
 
-mv testnew.csv test.csv 
+mv /home/socialmaps_logs/tweets_new.txt /home/socialmaps_logs/tweets.txt
+
+echo "`date`" >> /home/socialmaps_logs/log_sort.txt
